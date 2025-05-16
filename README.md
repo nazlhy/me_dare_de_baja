@@ -1,0 +1,21 @@
+# API de Operaciones Matemáticas
+
+Este proyecto es una pequeña API creada con Flask que permite realizar operaciones matemáticas básicas (suma, resta, multiplicación y división) a través de una petición POST.
+Cómo ejecutar sin Docker
+
+1. Instala Flask:
+
+ejecutar con python operaciones.py
+
+Accede a la API en postman
+POST = http://localhost:5000/operacion.
+GET = http://localhost:5000/operacion?num1=10&num2=5
+
+ejecutar con Docker
+imagen:
+docker build -t operaciones-api .
+
+contenedor:
+docker run -p 5000:5000 operaciones-api
+
+
