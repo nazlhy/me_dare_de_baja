@@ -20,7 +20,7 @@ def operacion():
 
         # Validación
         if num1 is None or num2 is None:
-            raise ValueError("Faltan parámetros num1 o num2")
+            raise ValueError("Falta insertar  num1 o num2")
 
         resultados = {
             "suma": num1 + num2,
