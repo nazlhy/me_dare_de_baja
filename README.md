@@ -1,7 +1,6 @@
 # API de Operaciones Matemáticas
 
-Este proyecto es una pequeña API creada con Flask que permite realizar operaciones matemáticas básicas (suma, resta, multiplicación y división) a través de una petición POST.
-Cómo ejecutar sin Docker
+Este proyecto es una pequeña API creada con Flask que permite realizar operaciones matemáticas básicas (suma, resta, multiplicación y división) 
 
 1. Instala Flask:
 
