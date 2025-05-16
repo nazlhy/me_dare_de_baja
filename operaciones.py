@@ -4,7 +4,7 @@ import logging
 
 app = Flask(__name__)
 
-# Configurar logging para guardar en archivo
+#  guardar en archivo
 logging.basicConfig(filename='resultados.txt', level=logging.INFO, format='%(asctime)s - %(message)s')
 
 @app.route('/operacion', methods=['GET', 'POST'])
@@ -25,8 +25,8 @@ def operacion():
         resultados = {
             "suma": num1 + num2,
             "resta": num1 - num2,
-            "multiplicación": num1 * num2,
-            "división": num1 / num2 if num2 != 0 else "No se puede dividir entre 0"
+            "multiplicacion": num1 * num2,
+            "division": num1 / num2 if num2 != 0 else "No se puede dividir entre 0"
         }
 
         # Guardar resultado en archivo
