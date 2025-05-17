@@ -8,7 +8,15 @@ ejecutar con python operaciones.py
 
 Accede a la API en postman
 POST = http://localhost:5000/operacion.
-GET = http://localhost:5000/operacion?num1=10&num2=5
+ejemplo de json
+{
+  "num1": 10,
+  "num2": 5,
+  "operacion": "suma" (resta, multiplicacion o division)
+}
+
+GET = http://localhost:5000/operacion?num1=10&num2=5&operacion=division (suma, resta, multiplicacion)
+
 
 ejecutar con Docker
 imagen:
